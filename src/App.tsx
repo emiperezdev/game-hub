@@ -10,16 +10,19 @@ function App() {
       }}
     >
       <Show above="lg">
-        <GridItem area="aside" bg="gold">
+        <GridItem area="aside">
           Aside
         </GridItem>
       </Show>
+
       <GridItem area="nav">
         <NavBar/>
       </GridItem>
-      <GridItem area="main" bg="dodgerblue">
+
+      <GridItem area="main">
         Main
       </GridItem>
+
     </Grid>
   );
 }
